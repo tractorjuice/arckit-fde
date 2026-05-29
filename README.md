@@ -15,7 +15,7 @@ Live site: <https://tractorjuice.github.io/arckit-fde/>
 3. **Risk**. A board-readable view covering delivery, security, data, supplier, assurance and public trust exposure.
 4. **Stakeholders**. A practical model showing influence, duties, decisions, evidence needs and likely objections.
 
-No open-ended discovery. No per-week retainer. No off-site delivery centre. One or two senior architects, embedded with your delivery team, with ArcKit running 117 agentic AI commands on Claude Code so the structural work is automated and the week is spent on judgement.
+No open-ended discovery. No per-week retainer. No off-site delivery centre. One or two senior architects, embedded with your delivery team, with ArcKit, the enterprise architecture governance harness, running on Claude Code so the structural work is automated and the week is spent on judgement.
 
 ## The bootstrap week
 
@@ -77,7 +77,7 @@ Visit <https://tractorjuice.github.io/arckit-fde/> to check availability and sta
 
 ## About ArcKit
 
-[ArcKit](https://arckit.org) is an enterprise architecture governance toolkit for AI coding assistants. The toolkit runs alongside the FDE so that discovery, evidence and traceability work that traditionally needs a large consultancy bench is compressed into focused sprints.
+[ArcKit](https://arckit.org) is the enterprise architecture governance harness for AI coding assistants. The harness runs alongside the FDE so that discovery, evidence and traceability work that traditionally needs a large consultancy bench is compressed into focused sprints.
 
 ---
 
