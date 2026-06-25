@@ -1075,3 +1075,257 @@ footer p {
     font-weight: 820;
   }
 }
+
+/* Architects Page Styles */
+
+.architects-hero {
+  position: relative;
+  background: var(--ink);
+  color: var(--white);
+  padding: clamp(4rem, 8vw, 8rem) clamp(1rem, 5vw, 4rem);
+}
+
+.architects-hero-content {
+  max-width: 900px;
+  width: min(760px, 100%);
+}
+
+.architects-hero .hero-copy {
+  max-width: 740px;
+  color: rgba(255, 255, 255, 0.86);
+  font-size: clamp(1.15rem, 2vw, 1.45rem);
+}
+
+.architects-section {
+  padding: clamp(4.5rem, 9vw, 8rem) clamp(1rem, 5vw, 4rem);
+  background: var(--paper);
+}
+
+.architects-intro {
+  max-width: 800px;
+  margin-top: 1.5rem;
+  color: var(--muted);
+  font-size: 1.08rem;
+  line-height: 1.6;
+}
+
+.architects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1px;
+  background: var(--line);
+  border: 1px solid var(--line);
+  padding: clamp(1rem, 2vw, 2rem) clamp(1rem, 5vw, 4rem);
+}
+
+.architect-card {
+  background: var(--white);
+  padding: clamp(1.5rem, 3vw, 2rem);
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.architect-header {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.architect-avatar {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background: var(--green);
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  font-weight: 820;
+  flex-shrink: 0;
+}
+
+.architect-identity h3 {
+  margin-bottom: 0.25rem;
+  font-size: 1.4rem;
+  color: var(--ink);
+}
+
+.architect-identity .architect-title {
+  margin-bottom: 0.2rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+  font-weight: 680;
+}
+
+.architect-identity .architect-company {
+  margin: 0;
+  color: var(--green);
+  font-size: 0.88rem;
+  font-weight: 720;
+}
+
+.architect-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.architect-label {
+  display: inline-block;
+  margin-right: 0.5rem;
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 820;
+  text-transform: uppercase;
+}
+
+.architect-location,
+.architect-specializations {
+  margin: 0;
+  font-size: 0.95rem;
+  color: var(--ink);
+}
+
+.architect-services {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0.5rem 0 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.architect-services li {
+  border-radius: 999px;
+  background: rgba(16, 22, 18, 0.06);
+  color: var(--ink);
+  padding: 0.3rem 0.8rem;
+  font-size: 0.82rem;
+  font-weight: 680;
+}
+
+.architect-bio {
+  margin: 0;
+}
+
+.architect-bio p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.98rem;
+  line-height: 1.6;
+}
+
+.architect-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin-top: 0.5rem;
+}
+
+.architect-link {
+  color: var(--green);
+  font-size: 0.9rem;
+  font-weight: 720;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.architect-link:hover,
+.architect-link:focus-visible {
+  color: var(--ink);
+}
+
+/* Join Section */
+.join-section {
+  background: var(--white);
+}
+
+.join-content {
+  max-width: 800px;
+  margin-top: 1.5rem;
+}
+
+.join-content p {
+  color: var(--muted);
+  font-size: 1.03rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.join-content p:last-child {
+  margin-bottom: 1.5rem;
+}
+
+.join-requirements {
+  margin: 1.5rem 0;
+  padding-left: 1.2rem;
+  list-style: none;
+}
+
+.join-requirements li {
+  margin-bottom: 0.75rem;
+  color: var(--muted);
+  font-size: 0.98rem;
+}
+
+.join-requirements strong {
+  color: var(--ink);
+}
+
+/* CTA Section for Architects */
+.cta-section {
+  justify-content: space-between;
+  background: var(--ink);
+  color: var(--white);
+}
+
+.cta-copy {
+  max-width: 720px;
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 1.08rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Active nav link style */
+nav a.active {
+  background: rgba(255, 255, 255, 0.2);
+  color: var(--white);
+}
+
+/* Responsive adjustments for architects page */
+@media (max-width: 760px) {
+  .architects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .architect-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .architect-avatar {
+    width: 3.5rem;
+    height: 3.5rem;
+    font-size: 1.2rem;
+  }
+
+  .architect-actions {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .architect-services {
+    justify-content: flex-start;
+  }
+
+  .join-requirements {
+    padding-left: 0;
+  }
+
+  .cta-copy {
+    font-size: 1rem;
+  }
+}
+
