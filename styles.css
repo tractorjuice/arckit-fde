@@ -298,6 +298,11 @@ h3 {
   color: var(--white);
 }
 
+.button.yellow {
+  background: var(--amber);
+  color: var(--ink);
+}
+
 .button.dark {
   background: var(--ink);
   color: var(--white);
