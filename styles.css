@@ -1263,6 +1263,20 @@ footer p {
   margin-bottom: 1.5rem;
 }
 
+/* Contributors Section */
+.contributors-section {
+  padding: clamp(4.5rem, 9vw, 8rem) clamp(1rem, 5vw, 4rem);
+  background: var(--paper);
+}
+
+.contributors-intro {
+  max-width: 800px;
+  margin-top: 1.5rem;
+  color: var(--muted);
+  font-size: 1.08rem;
+  line-height: 1.6;
+}
+
 .join-requirements {
   margin: 1.5rem 0;
   padding-left: 1.2rem;
