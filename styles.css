@@ -1348,3 +1348,123 @@ nav a.active {
   }
 }
 
+/* Community & Talks Section */
+.talks-section {
+  padding: clamp(4.5rem, 9vw, 8rem) clamp(1rem, 5vw, 4rem);
+  background: var(--white);
+}
+
+.talks-intro {
+  max-width: 800px;
+  margin-top: 1.5rem;
+  color: var(--muted);
+  font-size: 1.08rem;
+  line-height: 1.6;
+}
+
+.talks-list {
+  list-style: none;
+  margin: 2.5rem 0 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  background: var(--line);
+  border: 1px solid var(--line);
+}
+
+.talk-card {
+  background: var(--white);
+  display: flex;
+  gap: clamp(1rem, 3vw, 2rem);
+  padding: clamp(1.4rem, 3vw, 2rem);
+  align-items: flex-start;
+}
+
+.talk-date {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 5rem;
+  padding: 0.75rem 0;
+  border-radius: 12px;
+  background: rgba(16, 22, 18, 0.06);
+  line-height: 1.15;
+}
+
+.talk-day {
+  font-size: 1.05rem;
+  font-weight: 820;
+  color: var(--ink);
+  text-transform: uppercase;
+}
+
+.talk-year {
+  font-size: 0.8rem;
+  font-weight: 680;
+  color: var(--muted);
+}
+
+.talk-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.talk-tag {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  padding: 0.2rem 0.7rem;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 820;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.talk-tag--upcoming {
+  background: var(--green);
+  color: var(--white);
+}
+
+.talk-title {
+  margin: 0 0 0.35rem 0;
+  font-size: 1.25rem;
+  color: var(--ink);
+}
+
+.talk-meta {
+  margin: 0 0 0.6rem 0;
+  color: var(--green);
+  font-size: 0.9rem;
+  font-weight: 720;
+}
+
+.talk-desc {
+  margin: 0 0 0.9rem 0;
+  color: var(--muted);
+  font-size: 0.98rem;
+  line-height: 1.6;
+}
+
+.talk-links {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 760px) {
+  .talk-card {
+    flex-direction: column;
+  }
+
+  .talk-date {
+    width: auto;
+    align-self: flex-start;
+    flex-direction: row;
+    gap: 0.4rem;
+    padding: 0.5rem 1rem;
+  }
+}
+
