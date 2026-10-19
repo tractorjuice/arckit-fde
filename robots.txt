@@ -1,4 +1,2 @@
 User-agent: *
 Allow: /
-
-Sitemap: https://tractorjuice.github.io/arckit-fde/sitemap.xml
